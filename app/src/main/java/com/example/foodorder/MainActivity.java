@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
             recyclerView.setVisibility(View.VISIBLE);
             menuModalAdd.setVisibility(View.GONE);
         });
+
     }
 
     public void initView(){
@@ -87,9 +88,7 @@ public class MainActivity extends AppCompatActivity {
         menuList.add(new MenuModel("Chicken Cordon Bleu", "Daging dengan Keju dilapisi Tepung Roti", "45.000"));
         menuList.add(new MenuModel("Chicken Salted Egg", "Nasi Ayam Telur Asin Saus Keju", "25.000"));
         menuList.add(new MenuModel("Chicken Cordon Bleu", "Daging dengan Keju dilapisi Tepung Roti", "45.000"));
-        menuList.add(new MenuModel("Chicken Salted Egg", "Nasi Ayam Telur Asin Saus Keju", "25.000"));
-        menuList.add(new MenuModel("Chicken Cordon Bleu", "Daging dengan Keju dilapisi Tepung Roti", "45.000"));
-    }
+       }
 
     public void clearInputs(){
         etMenu.setText("");
